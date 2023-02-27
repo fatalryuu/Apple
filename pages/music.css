@@ -1,0 +1,81 @@
+nav {
+    margin-right: 267px;
+}
+
+main {
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    background-image: url("../img/space.jpg");
+    opacity: .9;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 60px 0 10px 0;
+}
+
+.wrapper p {
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: 18px;
+    max-width: 1200px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.products {
+    display: flex;
+    margin-left: 795px;
+}
+
+.product {
+    margin-right: 30px;
+}
+
+.product img {
+    width: 80px;
+}
+
+.product h2 {
+    font-size: 18px;
+}
+
+.music_icon {
+    width: 90px;
+    margin: 50px 0 10px 0;
+}
+
+.div_music {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.hear {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.try {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: #f3104c;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 75px;
+}
+
+.try:hover {
+    background-color: #cb0d41;
+}
